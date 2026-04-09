@@ -16,6 +16,7 @@ export const Contact = () => {
           <a
             href="https://github.com/dagar-Sahil03"
             target="_blank"
+            rel="noopener noreferrer"
             id="contact-github"
           >
             <FontAwesomeIcon icon={faGithub} className="contact-icon" />
@@ -24,6 +25,7 @@ export const Contact = () => {
           <a
             href="https://www.linkedin.com/in/sahil-dagar2002/"
             target="_blank"
+            rel="noopener noreferrer"
             id="contact-linkedin"
           >
             <FontAwesomeIcon icon={faLinkedin} className="contact-icon" />
@@ -37,6 +39,7 @@ export const Contact = () => {
             id="contact-email"
             href="mailto:Sahildagar3602@gmail.com"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
             <div className="tooltip">Gmail</div>
