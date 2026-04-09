@@ -73,8 +73,7 @@ export const Home = () => {
           <div className="home-img-container">
             <img
               src={`${process.env.PUBLIC_URL || ''}/ProfilePhoto.png`}
-              alt="Profile Image"
-              // width={200}
+              alt="Sahil Dagar profile"
               className="home-img"
             />
             <div className="backdrop"></div>

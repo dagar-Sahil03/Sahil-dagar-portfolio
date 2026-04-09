@@ -19,7 +19,7 @@ export const Reveal = ({
       mainControls.start("visible");
       slideControls.start("visible");
     }
-  }, [isInView]);
+  }, [isInView, mainControls, slideControls]);
 
   return (
     <REVEAL ref={ref} width={width} className={className}>

@@ -10,48 +10,48 @@ export const Skills = () => {
         <h4>Tools</h4>
         <Ticker duration={60} direction={-1}>
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/aws.png`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/aws.png`} className="skills-card-img" alt="AWS logo" />
             <p className="skills-card-name">Amazon Web Service</p>
           </div>
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/azure.webp`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/azure.webp`} className="skills-card-img" alt="Azure logo" />
             <p className="skills-card-name">Azure</p>
           </div>
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/GCP.webp`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/GCP.webp`} className="skills-card-img" alt="Google Cloud Platform logo" />
             <p className="skills-card-name">Google Cloud Platform</p>
           </div>
 
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/DigitalOcean.svg`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/DigitalOcean.svg`} className="skills-card-img" alt="DigitalOcean logo" />
             <p className="skills-card-name">DigitalOcean</p>
           </div>
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/jenkins.svg`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/jenkins.svg`} className="skills-card-img" alt="Jenkins logo" />
             <p className="skills-card-name">Jenkins</p>
           </div>
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/kubernetes.svg`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/kubernetes.svg`} className="skills-card-img" alt="Kubernetes logo" />
             <p className="skills-card-name">Kubernetes</p>
           </div>
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/linux-tux-colour.svg`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/linux-tux-colour.svg`} className="skills-card-img" alt="Linux logo" />
             <p className="skills-card-name">Linux</p>
           </div>
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/terraform.svg`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/terraform.svg`} className="skills-card-img" alt="Terraform logo" />
             <p className="skills-card-name">Terraform</p>
           </div>
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/grafana.svg`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/grafana.svg`} className="skills-card-img" alt="Grafana logo" />
             <p className="skills-card-name">Grafana</p>
           </div>
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/docker.svg`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/docker.svg`} className="skills-card-img" alt="Docker logo" />
             <p className="skills-card-name">Docker</p>
           </div>
           <div className="skills-card">
-            <img src={`${process.env.PUBLIC_URL || ''}/kubernetes.svg`} className="skills-card-img" />
+            <img src={`${process.env.PUBLIC_URL || ''}/kubernetes.svg`} className="skills-card-img" alt="Kubernetes logo" />
             <p className="skills-card-name">Kubernetes</p>
           </div>
         </Ticker>
@@ -62,6 +62,7 @@ export const Skills = () => {
             <img
               src={`${process.env.PUBLIC_URL || ""}/github-1.svg`}
               className="skills-card-img"
+              alt="GitHub logo"
             />
             <p className="skills-card-name">GitHub</p>
           </div>
@@ -69,6 +70,7 @@ export const Skills = () => {
             <img
               src={`${process.env.PUBLIC_URL || ""}/GIT.svg`}
               className="skills-card-img"
+              alt="Git logo"
             />
             <p className="skills-card-name">GIT</p>
           </div>
@@ -76,6 +78,7 @@ export const Skills = () => {
             <img
               src={`${process.env.PUBLIC_URL || ""}/apache.png`}
               className="skills-card-img"
+              alt="Apache logo"
             />
             <p className="skills-card-name">Apache</p>
           </div>
@@ -83,6 +86,7 @@ export const Skills = () => {
             <img
               src={`${process.env.PUBLIC_URL || ""}/nginx.svg`}
               className="skills-card-img"
+              alt="Nginx logo"
             />
             <p className="skills-card-name">Nginx</p>
           </div>
@@ -90,6 +94,7 @@ export const Skills = () => {
             <img
               src={`${process.env.PUBLIC_URL || ""}/bash.svg`}
               className="skills-card-img"
+              alt="Bash logo"
             />
             <p className="skills-card-name">Bash</p>
           </div>
@@ -97,6 +102,7 @@ export const Skills = () => {
             <img
               src={`${process.env.PUBLIC_URL || ""}/python.png`}
               className="skills-card-img"
+              alt="Python logo"
             />
             <p className="skills-card-name">Python</p>
           </div>
